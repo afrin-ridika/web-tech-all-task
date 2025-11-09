@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+ 
+        .container {
+            background-color: #cce0f5;
+            padding: 30px;
+            border: 1px solid #000;
+            border-radius: 4px;
+            width: 300px;
+        }
+ 
+        table {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+ 
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #000;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+ 
+        button {
+            display: block;
+            margin-left: auto;
+            background-color: #d9e6f2;
+            border: 1px solid #000;
+            border-radius: 6px;
+            padding: 6px 20px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+ 
+        button:hover {
+            background-color: #bcd2ea;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <table>
+ 
+                <tr>
+                    <td class="email">Email </td>
+                   
+                </tr>
+ 
+                <tr>
+                    <td><input type="email" id="email" placeholder="Enter Your email" required ></td>
+                </tr>
+ 
+                <tr>
+                    <td class="password">Password </td>
+                   
+                </tr>
+ 
+                <tr>
+                    <td><input type="password" id="password" placeholder="Enter Your password" required ></td>
+                </tr>
+               
+ 
+ 
+            </table>
+ 
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
+ 
