@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #d4cbd2;
+}
+ 
+
+header {
+    background-color: #83306a;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+ 
+header h1 {
+    font-size: 2.5rem;
+}
+ 
+
+.profile-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    min-height: 60vh;
+}
+ 
+
+.profile-box {
+    background-color: #d8dbdd;
+    border: 3px solid #db349b;
+    border-radius: 15px;
+    padding: 2.5rem;
+    margin: 1.5rem auto;
+    width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+ 
+
+.student-photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 4px solid #db349b;
+    margin-bottom: 1.5rem;
+    object-fit: cover;
+}
+ 
+
+.student-name {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+ 
+/* Student Info */
+.student-info {
+    font-size: 1.1rem;
+    color: #34495e;
+    margin: 0.8rem 0;
+}
+ 
+/* Student Bio */
+.student-bio {
+    font-size: 1rem;
+    color: #555;
+    text-align: justify;
+    margin-top: 1.5rem;
+    line-height: 1.8;
+}
+ 
+/* Footer Styling */
+footer {
+    background-color: #83306a;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+}
+ 
+footer p {
+    font-size: 0.9rem;
+}
