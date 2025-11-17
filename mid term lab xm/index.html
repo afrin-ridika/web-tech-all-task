@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIUB Web Technologies Lab Exam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Digital Media Company - News & Content</h1>
+    </header>
+
+    <article id="article1">
+        <h2>The Future of AI in Hyper-Personalized Content Generation</h2>
+        <p class="article-meta">Published: November 17, 2025</p>
+        <p>The convergence of advanced machine learning models and big data analytics is revolutionizing how digital media companies create and deliver content. Instead of broad, generic articles, AI systems are now capable of generating hyper-personalized news feeds, feature stories, and interactive multimedia content tailored to the behavioral patterns and interests of a global audience[cite: 8]. This shift promises to significantly enhance user engagement and retention.</p>
+        <p>Expert projections indicate that by 2030, over 70% of all online articles and summaries will have been either partially or fully authored by sophisticated AI frameworks, leading to unprecedented levels of timely delivery and relevance[cite: 8].</p>
+        
+        <hr>
+
+        <section class="comment-system" data-article-id="article1">
+            <h3>Reader Comments & Engagement</h3>
+            
+            <div class="statistics">
+                <p>📊 **Total Comments:** <span id="total-comments-article1">0</span></p>
+                <p>⭐ **Average Rating:** <span id="average-rating-article1">N/A</span></p>
+            </div>
+
+            <div id="comments-list-article1" class="comments-list">
+                </div>
+
+            <form id="comment-form-article1" class="comment-form" onsubmit="handleSubmit(event, 'article1')">
+                <h4>Leave a Comment</h4>
+
+                <div class="form-group">
+                    <label for="name-article1">Name (Required):</label>
+                    <input type="text" id="name-article1" name="name" required>
+                    <div class="error-message" id="error-name-article1"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email-article1">Email (Optional):</label>
+                    <input type="email" id="email-article1" name="email">
+                    <div class="error-message" id="error-email-article1"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="comment-text-article1">Comment (Required):</label>
+                    <textarea id="comment-text-article1" name="commentText" required></textarea>
+                    <div class="error-message" id="error-comment-text-article1"></div>
+                </div>
+
+                <div class="form-group rating-group">
+                    <label>Rate the Content (Optional):</label>
+                    <div class="star-rating" data-article-id="article1">
+                        <input type="radio" id="star5-article1" name="rating" value="5" /><label for="star5-article1" title="5 stars">★</label>
+                        <input type="radio" id="star4-article1" name="rating" value="4" /><label for="star4-article1" title="4 stars">★</label>
+                        <input type="radio" id="star3-article1" name="rating" value="3" /><label for="star3-article1" title="3 stars">★</label>
+                        <input type="radio" id="star2-article1" name="rating" value="2" /><label for="star2-article1" title="2 stars">★</label>
+                        <input type="radio" id="star1-article1" name="rating" value="1" /><label for="star1-article1" title="1 star">★</label>
+                    </div>
+                    <div id="selected-rating-article1" class="selected-rating-display">Selected Rating: N/A</div>
+                </div>
+
+                <button type="submit">Submit Comment</button>
+            </form>
+        </section>
+    </article>
+
+    ---
+
+    <article id="article2">
+        <h2>Exploring Deep-Sea Vents: New Biological and Geological Discoveries</h2>
+        <p class="article-meta">Published: October 20, 2025</p>
+        <p>The ongoing exploration of deep-sea hydrothermal vents continues to yield remarkable findings, challenging our understanding of life's resilience and geological processes. Recent expeditions have utilized advanced submersible technology to capture stunning multimedia content of previously unknown extremophile ecosystems[cite: 8].</p>
+        <p>These unique environments, characterized by extreme pressure and high temperatures, harbor complex biological communities that thrive without sunlight, depending entirely on chemosynthesis. This research is pivotal for understanding the potential for life in extraterrestrial settings.</p>
+
+        <hr>
+
+        <section class="comment-system" data-article-id="article2">
+            <h3>Reader Comments & Engagement</h3>
+            
+            <div class="statistics">
+                <p>📊 **Total Comments:** <span id="total-comments-article2">0</span></p>
+                <p>⭐ **Average Rating:** <span id="average-rating-article2">N/A</span></p>
+            </div>
+
+            <div id="comments-list-article2" class="comments-list">
+                </div>
+
+            <form id="comment-form-article2" class="comment-form" onsubmit="handleSubmit(event, 'article2')">
+                <h4>Leave a Comment</h4>
+
+                <div class="form-group">
+                    <label for="name-article2">Name (Required):</label>
+                    <input type="text" id="name-article2" name="name" required>
+                    <div class="error-message" id="error-name-article2"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email-article2">Email (Optional):</label>
+                    <input type="email" id="email-article2" name="email">
+                    <div class="error-message" id="error-email-article2"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="comment-text-article2">Comment (Required):</label>
+                    <textarea id="comment-text-article2" name="commentText" required></textarea>
+                    <div class="error-message" id="error-comment-text-article2"></div>
+                </div>
+
+                <div class="form-group rating-group">
+                    <label>Rate the Content (Optional):</label>
+                    <div class="star-rating" data-article-id="article2">
+                        <input type="radio" id="star5-article2" name="rating" value="5" /><label for="star5-article2" title="5 stars">★</label>
+                        <input type="radio" id="star4-article2" name="rating" value="4" /><label for="star4-article2" title="4 stars">★</label>
+                        <input type="radio" id="star3-article2" name="rating" value="3" /><label for="star3-article2" title="3 stars">★</label>
+                        <input type="radio" id="star2-article2" name="rating" value="2" /><label for="star2-article2" title="2 stars">★</label>
+                        <input type="radio" id="star1-article2" name="rating" value="1" /><label for="star1-article2" title="1 star">★</label>
+                    </div>
+                    <div id="selected-rating-article2" class="selected-rating-display">Selected Rating: N/A</div>
+                </div>
+
+                <button type="submit">Submit Comment</button>
+            </form>
+        </section>
+    </article>
+
+    <script src="script.js"></script>
+</body>
+</html>
